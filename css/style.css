@@ -1,0 +1,85 @@
+* {
+    font-family: 'Roboto', sans-serif;
+    margin: 5px auto;
+    padding: 0px;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    user-select: none;
+}
+
+body {
+    background-color: whitesmoke;
+}
+
+.container {
+    width: 1024px;
+    margin: auto;
+}
+
+.change {
+    padding: 5px;
+    margin: 5px auto;
+
+}
+
+button {
+    /* color: whitesmoke; */
+    background-color: rgba(255, 166, 0, 0.733);
+    text-shadow: 0 0 1px black;
+    font-size: larger;
+    padding: 3px;
+    /* width: 16%; */
+    box-shadow: 1px 1px 1px 1px gray;
+
+}
+
+#input {
+    border-radius: 5px;
+    padding: 3px;
+    box-shadow: 1px 1px 1px 1px gray;
+}
+
+/***************start validate form*****************/
+
+#pass {
+    border-radius: 5px;
+    padding: 3px;
+
+}
+
+/***************end validate form*****************/
+/*************start form lef&table right***********/
+
+.box-preview {
+    border: 1px solid rgb(197, 193, 193);
+    border-radius: 8px;
+    height: 20em;
+    padding: 5px;
+    box-shadow: 0px 6px 5px 2px #201e1e8c;
+    display: flex;
+    overflow: auto;
+}
+
+.col-sm-6 form .form-group .form-control:hover {
+    box-shadow: 0px 6px 5px 2px #201e1e8c;
+
+}
+
+table {
+    width: 98%;
+    overflow: hidden;
+}
+
+table thead {
+    font-weight: bold;
+    background-color: rgb(236, 235, 235);
+}
+
+table td {
+    padding: 5px;
+    text-align: center;
+    border: 1px solid gray;
+
+}
+
+/*************end form lef&table right***********/
